@@ -1,0 +1,1 @@
+[2021-02-04 13:54:21.097] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/opt/lampp/htdocs/lsapp/.vscode'

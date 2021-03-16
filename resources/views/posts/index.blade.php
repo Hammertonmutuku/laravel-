@@ -18,7 +18,6 @@
                 </div>
                 <hr>
         @endforeach
-        {{$posts->links}}
     @else 
         <p>No posts found </p>
     @endif 

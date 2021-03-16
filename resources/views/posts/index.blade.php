@@ -2,7 +2,7 @@
 
 @section('content')
     <h1>Posts  </h1>
-    @if(count((array)$posts) > 1)
+    @if(count($posts) > 1)
         @foreach($posts as $post)
           <div class ="well">
               <div class="row">

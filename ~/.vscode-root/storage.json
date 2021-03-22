@@ -11,9 +11,9 @@
             "folder": "file:///opt/lampp/htdocs/lsapp",
             "backupPath": "/opt/lampp/htdocs/lsapp/~/.vscode-root/Backups/30c6da64b092f7b530d49a136de0d958",
             "uiState": {
-                "mode": 1,
-                "x": 887,
-                "y": 69,
+                "mode": 0,
+                "x": 200,
+                "y": 64,
                 "width": 935,
                 "height": 949
             }
@@ -48,7 +48,7 @@
                         "label": "Open Wor&&kspace..."
                     },
                     {
-                        "id": "submenuitem.24",
+                        "id": "submenuitem.25",
                         "label": "Open &&Recent",
                         "submenu": {
                             "items": [
@@ -124,7 +124,7 @@
                         "checked": true
                     },
                     {
-                        "id": "submenuitem.23",
+                        "id": "submenuitem.24",
                         "label": "&&Preferences",
                         "submenu": {
                             "items": [
@@ -366,7 +366,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.15",
+                        "id": "submenuitem.16",
                         "label": "&&Appearance",
                         "submenu": {
                             "items": [
@@ -449,7 +449,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.21",
+                        "id": "submenuitem.22",
                         "label": "Editor &&Layout",
                         "submenu": {
                             "items": [
@@ -541,6 +541,10 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
+                        "id": "workbench.actions.view.problems",
+                        "label": "&&Problems"
+                    },
+                    {
                         "id": "workbench.action.output.toggleOutput",
                         "label": "&&Output"
                     },
@@ -551,10 +555,6 @@
                     {
                         "id": "workbench.action.terminal.toggleTerminal",
                         "label": "&&Terminal"
-                    },
-                    {
-                        "id": "workbench.actions.view.problems",
-                        "label": "&&Problems"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -603,7 +603,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.26",
+                        "id": "submenuitem.27",
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
@@ -652,7 +652,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.27",
+                        "id": "submenuitem.28",
                         "label": "Switch &&Group",
                         "submenu": {
                             "items": [
@@ -859,7 +859,7 @@
                         "label": "Toggle &&Breakpoint"
                     },
                     {
-                        "id": "submenuitem.22",
+                        "id": "submenuitem.23",
                         "label": "&&New Breakpoint",
                         "submenu": {
                             "items": [
@@ -971,6 +971,10 @@
                     {
                         "id": "workbench.action.showWelcomePage",
                         "label": "&&Welcome"
+                    },
+                    {
+                        "id": "workbench.action.showGettingStarted",
+                        "label": "Getting Started"
                     },
                     {
                         "id": "workbench.action.showInteractivePlayground",
@@ -1258,10 +1262,6 @@
                 "label": "Ctrl+Shift+E",
                 "userSettingsLabel": "ctrl+shift+e"
             },
-            "workbench.view.search": {
-                "label": "Ctrl+Shift+F",
-                "userSettingsLabel": "ctrl+shift+f"
-            },
             "workbench.view.scm": {
                 "label": "Ctrl+Shift+G",
                 "userSettingsLabel": "ctrl+shift+g"
@@ -1269,6 +1269,10 @@
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
                 "userSettingsLabel": "ctrl+shift+d"
+            },
+            "workbench.actions.view.problems": {
+                "label": "Ctrl+Shift+M",
+                "userSettingsLabel": "ctrl+shift+m"
             },
             "workbench.action.output.toggleOutput": {
                 "label": "Ctrl+K Ctrl+H",
@@ -1282,10 +1286,6 @@
             "workbench.action.terminal.toggleTerminal": {
                 "label": "Ctrl+`",
                 "userSettingsLabel": "ctrl+`"
-            },
-            "workbench.actions.view.problems": {
-                "label": "Ctrl+Shift+M",
-                "userSettingsLabel": "ctrl+shift+m"
             },
             "editor.action.toggleWordWrap": {
                 "label": "Alt+Z",

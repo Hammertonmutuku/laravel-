@@ -1,9 +1,0 @@
-[2021-01-29 14:06:41.467] [sharedprocess] [info] main {"machineId":"9b4ebf991bc3153e96eea104c280a60b5fa5ddd451fda50f9b09d2cda0c95d03","windowId":2}
-[2021-01-29 14:06:41.577] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/opt/lampp/htdocs/lsapp/~/.vscode-root/User/snippets'
-[2021-01-29 14:07:21.492] [sharedprocess] [info] Starting to clean up unused language packs.
-[2021-01-29 15:11:50.665] [sharedprocess] [info] Installing extension: onecentlin.laravel-blade
-[2021-01-29 15:12:03.761] [sharedprocess] [info] Downloaded extension: onecentlin.laravel-blade undefined
-[2021-01-29 15:12:04.962] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.onecentlin.laravel-blade-1.25.0: onecentlin.laravel-blade
-[2021-01-29 15:12:04.962] [sharedprocess] [info] Renamed to /root/.vscode/extensions/onecentlin.laravel-blade-1.25.0
-[2021-01-29 15:12:04.963] [sharedprocess] [info] Installation completed. onecentlin.laravel-blade
-[2021-01-29 15:12:04.977] [sharedprocess] [info] Extensions installed successfully: onecentlin.laravel-blade

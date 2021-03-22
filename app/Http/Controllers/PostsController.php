@@ -29,7 +29,7 @@ class PostsController extends Controller
         //$posts = Post::where('title', 'Post one')->get();
        // $posts = Post::all();
        $posts = Post::orderBy('title', 'desc');
-        return view('posts.index')->with('posts', $posts);
+        return view('posts.index')->with(array('posts', $posts));
     }
 
     /**

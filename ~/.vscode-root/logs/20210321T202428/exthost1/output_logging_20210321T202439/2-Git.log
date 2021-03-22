@@ -1,0 +1,154 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /opt/lampp/htdocs/lsapp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :routes/web.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/routes/web.php
+> git cat-file -s db6c8145724c23b465e079626a7b02fa053fe60c
+> git check-ignore -v -z --stdin
+> git show --textconv :app/Http/Controllers/PagesController.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Http/Controllers/PagesController.php
+> git cat-file -s 7b6a326fe28ee58a15db17963d3cca1a4f97b0a9
+> git show --textconv :app/Http/Controllers/PostsController.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Http/Controllers/PostsController.php
+> git cat-file -s 5bb09a32a68dd863a7c4a8a60ddd043956fec945
+> git show --textconv :app/Http/Controllers/PagesController.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Http/Controllers/PagesController.php
+> git cat-file -s 7b6a326fe28ee58a15db17963d3cca1a4f97b0a9
+> git show --textconv :app/Http/Controllers/PostsController.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Http/Controllers/PostsController.php
+> git cat-file -s 5bb09a32a68dd863a7c4a8a60ddd043956fec945
+> git show --textconv :app/Models/Post.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Models/Post.php
+> git cat-file -s e9ea07ce79d44e4f8d43dd3f74d562b7e2794d7b
+> git show --textconv :app/Http/Controllers/PostsController.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Http/Controllers/PostsController.php
+> git cat-file -s 5bb09a32a68dd863a7c4a8a60ddd043956fec945
+> git show --textconv :app/Http/Controllers/PagesController.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Http/Controllers/PagesController.php
+> git cat-file -s 7b6a326fe28ee58a15db17963d3cca1a4f97b0a9
+> git show --textconv :app/Http/Controllers/PostsController.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Http/Controllers/PostsController.php
+> git cat-file -s 5bb09a32a68dd863a7c4a8a60ddd043956fec945
+> git show --textconv :app/Models/Post.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Models/Post.php
+> git cat-file -s e9ea07ce79d44e4f8d43dd3f74d562b7e2794d7b
+> git show --textconv :app/Http/Controllers/PostsController.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Http/Controllers/PostsController.php
+> git cat-file -s 5bb09a32a68dd863a7c4a8a60ddd043956fec945
+> git show --textconv :app/Models/Post.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Models/Post.php
+> git cat-file -s e9ea07ce79d44e4f8d43dd3f74d562b7e2794d7b
+> git show --textconv :app/Http/Controllers/PostsController.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Http/Controllers/PostsController.php
+> git cat-file -s 5bb09a32a68dd863a7c4a8a60ddd043956fec945
+> git show --textconv :resources/views/includes/navbar.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/includes/navbar.blade.php
+> git cat-file -s 71efaa32e45370585fd0e8896949b177dee8577b
+> git show --textconv :app/Http/Controllers/PostsController.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Http/Controllers/PostsController.php
+> git cat-file -s 5bb09a32a68dd863a7c4a8a60ddd043956fec945
+> git show --textconv :routes/web.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/routes/web.php
+> git cat-file -s db6c8145724c23b465e079626a7b02fa053fe60c
+> git show --textconv :resources/views/posts/create.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/posts/create.blade.php
+> git cat-file -s 34fd34148f8f2cfa3b69f07695c1e6d9ed012f56
+> git show --textconv :resources/views/includes/messages.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/includes/messages.blade.php
+> git cat-file -s cf58ba45a0d64312af8cbaea7ed2a74a8b6047e8
+> git show --textconv :resources/views/posts/create.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/posts/create.blade.php
+> git cat-file -s 34fd34148f8f2cfa3b69f07695c1e6d9ed012f56
+> git show --textconv :app/Http/Controllers/PostsController.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Http/Controllers/PostsController.php
+> git cat-file -s 5bb09a32a68dd863a7c4a8a60ddd043956fec945
+> git show --textconv :resources/views/includes/messages.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/includes/messages.blade.php
+> git cat-file -s cf58ba45a0d64312af8cbaea7ed2a74a8b6047e8
+> git show --textconv :app/Http/Controllers/PostsController.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Http/Controllers/PostsController.php
+> git cat-file -s 5bb09a32a68dd863a7c4a8a60ddd043956fec945
+> git show --textconv :resources/views/posts/create.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/posts/create.blade.php
+> git cat-file -s 34fd34148f8f2cfa3b69f07695c1e6d9ed012f56
+> git show --textconv :app/Http/Controllers/PostsController.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Http/Controllers/PostsController.php
+> git cat-file -s 5bb09a32a68dd863a7c4a8a60ddd043956fec945
+> git show --textconv :resources/views/posts/create.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/posts/create.blade.php
+> git cat-file -s 34fd34148f8f2cfa3b69f07695c1e6d9ed012f56
+> git show --textconv :resources/views/posts/edit.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/posts/edit.blade.php
+> git cat-file -s 1a6daa2b7d8043efc7f9fbd2f206bbed29970a46
+> git show --textconv :resources/views/posts/show.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/posts/show.blade.php
+> git cat-file -s b9408c4fc57c472976023cb4e3cd979f00c318ea
+> git show --textconv :resources/views/includes/navbar.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/includes/navbar.blade.php
+> git cat-file -s 71efaa32e45370585fd0e8896949b177dee8577b
+> git show --textconv :routes/channels.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/routes/channels.php
+> git cat-file -s 5d451e1fae88c81c097aa55de6ff039a3cc0a1c3
+> git show --textconv :routes/api.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/routes/api.php
+> git cat-file -s bcb8b18986204615608d8013c463c73f1fa5a76e
+> git show --textconv :routes/web.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/routes/web.php
+> git cat-file -s db6c8145724c23b465e079626a7b02fa053fe60c
+> git show --textconv :resources/views/welcome.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/welcome.blade.php
+> git cat-file -s e305e336fbfabde6bebd311e3b0a67eb13b8eb5e
+> git show --textconv :resources/views/home.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/home.blade.php
+> git cat-file -s 1583a4a3bccb67fdff298395f3315557523f5559
+> git show --textconv :resources/views/posts/edit.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/posts/edit.blade.php
+> git cat-file -s 1a6daa2b7d8043efc7f9fbd2f206bbed29970a46
+> git show --textconv :resources/views/posts/index.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/posts/index.blade.php
+> git cat-file -s 869ee14ea1255912082f55530ae4439cf5131f77
+> git show --textconv :resources/views/posts/show.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/posts/show.blade.php
+> git cat-file -s b9408c4fc57c472976023cb4e3cd979f00c318ea
+> git show --textconv :resources/views/home.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/home.blade.php
+> git cat-file -s 1583a4a3bccb67fdff298395f3315557523f5559
+> git check-ignore -v -z --stdin
+> git show --textconv :resources/views/posts/create.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/posts/create.blade.php
+> git cat-file -s 34fd34148f8f2cfa3b69f07695c1e6d9ed012f56
+> git show --textconv :resources/views/home.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/home.blade.php
+> git cat-file -s 1583a4a3bccb67fdff298395f3315557523f5559
+> git show --textconv :resources/views/posts/index.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/posts/index.blade.php
+> git cat-file -s 869ee14ea1255912082f55530ae4439cf5131f77
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/Http/Controllers/PostsController.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/app/Http/Controllers/PostsController.php
+> git cat-file -s 5bb09a32a68dd863a7c4a8a60ddd043956fec945
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

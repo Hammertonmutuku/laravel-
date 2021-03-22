@@ -1,0 +1,33 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /opt/lampp/htdocs/lsapp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :routes/web.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/routes/web.php
+> git cat-file -s db6c8145724c23b465e079626a7b02fa053fe60c
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :resources/views/includes/navbar.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/includes/navbar.blade.php
+> git cat-file -s 71efaa32e45370585fd0e8896949b177dee8577b
+> git show --textconv :resources/views/layouts/app.blade.php
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/views/layouts/app.blade.php
+> git cat-file -s 560a27656bf2e8a739f6bbed1b7442641d55d188
+> git check-ignore -v -z --stdin
+> git show --textconv :resources/css/app.css
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/resources/css/app.css
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git check-ignore -v -z --stdin
+> git show --textconv :public/css/app.css
+> git ls-files --stage -- /opt/lampp/htdocs/lsapp/public/css/app.css
+> git cat-file -s 009edf3b134274e8974acdd487e8307eefb4a411
